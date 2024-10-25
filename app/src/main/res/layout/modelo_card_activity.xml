@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idModeloCard"
+    android:layout_width="250dp"
+    android:layout_height="355dp"
+    tools:context=".modeloCard">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="355dp"
+        android:orientation="vertical"
+        android:background="@color/fundo">
+
+        <TextView
+            android:id="@+id/idTituloModeloCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome da carta"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/idFotoModeloCard"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@color/black"/>
+
+        <TextView
+            android:id="@+id/idDescModeloCard"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="esta é uma descreção da carta, ela descreve a carta em um texto  bem descrevido afinal é uma descrição descritiosa sobre a carta que esta nesta carta"
+/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
