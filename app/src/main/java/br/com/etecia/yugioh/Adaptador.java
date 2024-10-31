@@ -54,7 +54,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.ViewHolder> {
         super(itemView);
         modeloTitulo = itemView.findViewById(R.id.idTituloModeloCard);
         modeloImagem = itemView.findViewById(R.id.idFotoModeloCard);
-        modeloDescri = itemView.findViewById(R.id.idDescModeloCard);
+//        modeloDescri = itemView.findViewById(R.id.idDescModeloCard);
     }
 }
 

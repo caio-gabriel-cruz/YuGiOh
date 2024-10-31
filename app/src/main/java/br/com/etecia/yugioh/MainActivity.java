@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         lstCards = new ArrayList<>();
         lstCards.add(new Card("Polimerização", R.drawable.polimeriz));
         lstCards.add(new Card("Dragão Alado de Rá", R.drawable.alado));
-        lstCards.add(new Card("Dragão Branco de OLhos Azuis", R.drawable.bar));
+        lstCards.add(new Card("Dragão Branco de Olhos Azuis", R.drawable.bar));
         lstCards.add(new Card("Dragão Bebê", R.drawable.bebe));
         lstCards.add(new Card("Exodia", R.drawable.exodia));
         lstCards.add(new Card("Exodia Necross", R.drawable.exodiapreto));
